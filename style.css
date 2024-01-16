@@ -1,0 +1,25 @@
+.grid-item{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    /* transition: 1s ease-in-out; */
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 500px;  
+    row-gap: 10px;  
+    border: 3px solid red;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* .mega-container{
+    position: relative;
+    padding-top: 80px;
+    border: 3px solid blue;
+    height: 400px;
+} */
